@@ -20,7 +20,9 @@ class Kennel extends Component {
   // This will eventually get pulled from the API
   locationsFromAPI = [
     { id: 1, name: "Nashville North", address: "500 Circle Way" },
-    { id: 2, name: "Nashville South", address: "10101 Binary Court" }
+    { id: 2, name: "Nashville South", address: "10101 Binary Court" },
+    { id: 3, name: "Nashville East", address: "389 Code Street" },
+    { id: 4, name: "Nashville West", address: "893 NSS Lane" }
   ];
 
   state = {
